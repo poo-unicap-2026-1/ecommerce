@@ -1,13 +1,13 @@
-class Compra {
+public class Compra {
 
     // Método 1: cálculo simples
     // preco * quantidade
-    double calcularTotal(double preco, int quantidade) {
+    public double calcularTotal(double preco, int quantidade) {
         return preco * quantidade;
     }
 
     // Método 2: com desconto (%)
-    double calcularTotal(double preco, int quantidade, double desconto) {
+    public double calcularTotal(double preco, int quantidade, double desconto) {
 
         // reutiliza o método anterior
         double total = calcularTotal(preco, quantidade);
